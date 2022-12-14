@@ -1,5 +1,7 @@
 # Telegram: Add multiple members to a Group
 
+<a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+
 This a a script that lets you add multiple participants to a Telegram Basic-Group. It also notify you the users who have privacy settings that don't allow them to be added to groups.
 
 ## Steps
