@@ -69,7 +69,7 @@ class TelegramBot(TelegramClient):
         actual_participants = set(all_participants_usernames)
         missing_participants = list(request_members - actual_participants)
         if missing_participants:
-            with open(f"{self.__group_name}_missing_members.txt", "w") as f:
+            with open(f"{self.__group_name}_missing_participants.txt", "w") as f:
                 [f.write(username + "\n") for username in missing_participants]
 
     def disconnect(self) -> None:
