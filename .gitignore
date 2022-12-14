@@ -1,0 +1,5 @@
+__pycache__/*
+*.session
+*.txt
+old.py
+config.py
